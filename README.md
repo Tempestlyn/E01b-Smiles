@@ -1,4 +1,8 @@
 # E01b-Smiles
+
+Having succesfully completed the assignments, the smile faces and their parts in each of the main python files have had their positioning corrected, each file with a different method of adjusting their x and y axis.
+
+
 An exercise exploring variables and loops using Python Arcade.
 
 This repository contains several files that you will need to alter to complete the assignment. The instructions for the exercise are also on Canvas.

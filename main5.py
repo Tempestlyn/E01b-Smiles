@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 
 import utils, open_color, arcade
-
+#imports python arcade and utilities
 utils.check_version((3,7))
 
 SCREEN_WIDTH = 800
+#sets window width to 800
 SCREEN_HEIGHT = 600
+#sets windor height to 600
 SCREEN_TITLE = "Smiley Face Example"
-
+#names window 
 class Faces(arcade.Window):
+
+    #creates Faces class with perameters of arcade.window)
     """ Our custom Window Class"""
 
     def __init__(self):
@@ -18,7 +22,7 @@ class Faces(arcade.Window):
 
         # Show the mouse cursor
         self.set_mouse_visible(True)
-
+        
         self.x = SCREEN_WIDTH / 2
         self.y = SCREEN_HEIGHT / 2
 
